@@ -1,7 +1,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  background-color: #121212;
+  /* background-color: #121212; */
   color: white;
   overflow: hidden;
 }
@@ -19,6 +19,7 @@
   margin: 5px;
   border-radius: 5px;
   overflow: auto;
+  padding: 0 1.5rem 0 1.5rem;
 }
 .music-player {
   background-color: black;
@@ -86,4 +87,87 @@ a {
 }
 .icon i:hover {
   opacity: 1;
+}
+.box {
+  height: 7rem;
+  background-color: #232323;
+  border-radius: 0.75rem;
+  margin: 0.5rem 0rem 1.75rem 0rem;
+  padding: 0.75rem 1rem;
+}
+.box-p1 {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.box-p2 {
+  font-size: 0.75rem;
+
+  opacity: 0.9;
+}
+.badge {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.71);
+  margin: 1rem 0 1rem 0;
+  height: 2rem;
+  width: fit-content;
+}
+.two {
+  height: 8rem;
+}
+.s-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+.nav-icon img {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 10%;
+  background-color: #000000;
+}
+.snav-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 1rem;
+}
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
+}
+.card {
+  background-color: #232323;
+  width: 150px;
+  border-radius: 0.3rem;
+  padding: 0.8rem;
+}
+.card-container {
+  display: flex;
+}
+.card-img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.card-title {
+  font-weight: 600;
+}
+.card-info {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.element {
+  margin-bottom: 0.5rem;
 }
